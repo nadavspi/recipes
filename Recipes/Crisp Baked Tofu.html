@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="http://davidlebovitz.com.s3.amazonaws.com/wp-content/uploads/2014/03/Baked-Marinated-Tofu-Recipe-13.jpg">
+                <img src="Images/fe043590-ddb3-4ea7-8b0f-c7c30ed32938/f1d609a7-cde2-4878-a0e2-968f398bfeea.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Crisp Baked Tofu</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Servings: </b><span itemprop="recipeYield">crisp baked tofu 4 servings</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="http://www.davidlebovitz.com/2014/03/crisp-baked-tofu-recipe/">
+                        <span itemprop="author">Davidlebovitz.com</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> pound firm tofu</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon toasted sesame oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon soy sauce or tamari</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon rice wine or sherry</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon rice vinegar or cider vinegar</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> garlic clove, peeled and finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons peeled minced fresh ginger</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons water</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon Sriracha or Asian chili paste</p><p class="line" itemprop="recipeIngredient">optional: 1 teaspoon sea salt or kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon corn starch</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Adapted from Eat Your Vegetables by Joe Yonan</p><p class="line">I’ve marinated tofu before, but it seemed unusual to press the water out of the tofu before adding the marinade which, interestingly, also has water added. But it was explained in the book that pressing the tofu to extract the water, and wiping it dry, helps the tofu absorb the marinade.</p><p class="line">I made half the recipe that is in the book (which are the quantities that I give here), so you can certainly double it. The only thing I did differently was to dial up the chili paste, because I don’t mind a little extra zing. You could use more, and I may do so the next time I make it.</p><p class="line">Joe recommends making a big batch of these tofu cubes and keeping them in the refrigerator for other uses, scattering them in a stir-fry, tossing them with ramen noodles, or tucking them into an Indonesian wrap. Mine got eaten almost immediately.</p><p class="line">1. Drain the tofu, wrap it in a paper towel, then place it on a plate. Put another plate on top of the tofu and place a heavy can of beans or tomatoes on top of it. Let stand 30 minutes.</p><p class="line">2. Unwrap the tofu, wipe it dry, and cut it into 1-inch (3cm) cubes.</p><p class="line">3. In a large, zip-top freezer bag, mix the sesame oil, soy sauce, rice wine, rice vinegar, garlic, ginger, water, Sriracha, and salt, if using. (See Note at end of recipe.) Add the tofu and toss the cubes in the marinade. Lay the bag on a plate and refrigerate for a minimum of 2 hours, or up to 8 hours, turning the bag a few times while marinating.</p><p class="line">(You can marinate the tofu in a glass, ceramic, or stainless steel bowl instead, covering it for storage.)</p><p class="line">4. Preheat the oven to 350ºF (180ºC.)</p><p class="line">5. Line a baking sheet with parchment paper. Drain the tofu (the marinade can be reserved, refrigerated, and used for a dipping sauce or dressing for another dish), then put the tofu cubes in a large bowl. Using a mesh sieve or strainer, sift the corn starch over the tofu pieces, working in batches as you sprinkle them with the corn starch.</p><p class="line">6. Transfer the tofu cubes to the prepared baking sheet and bake, turning the cubes several times during baking, until they are crisp and browned, about 45 minutes.</p><p class="line">Serving and storage: The tofu can be served warm or at room temperature. Leftover tofu can be stored in the refrigerator for three to four days.</p><p class="line">Note: I didn’t add the salt because I figured the soy sauce would provide enough for my taste, which it did. However the original recipe and some readers did like the salt added. So you can add it if you’d like.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>
